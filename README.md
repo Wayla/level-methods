@@ -6,6 +6,8 @@ Useful meta information about
 
 [![build status](https://secure.travis-ci.org/Wayla/level-methods.png)](http://travis-ci.org/Wayla/level-methods)
 
+[![testling badge](https://ci.testling.com/Wayla/level-methods.png)](https://ci.testling.com/Wayla/level-methods)
+
 ## Usage
 
 ```js

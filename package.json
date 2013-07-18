@@ -1,25 +1,46 @@
 {
-  "name" : "level-methods",
-  "description" : "Useful meta information about levelup methods.",
-  "version" : "0.0.0",
-  "repository" : {
-    "type" : "git",
-    "url" : "git://github.com/Wayla/level-methods.git"
+  "name": "level-methods",
+  "description": "Useful meta information about levelup methods.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Wayla/level-methods.git"
   },
   "homepage": "https://github.com/Wayla/level-methods",
-  "main" : "index.js",
-  "scripts" : {
-    "test" : "tape test/*.js"
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
   },
-  "dependencies" : {},
-  "devDependencies" : {
-    "tape" : "*"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "*"
   },
-  "keywords": ["levelup","leveldb","level","multilevel"],
+  "keywords": [
+    "levelup",
+    "leveldb",
+    "level",
+    "multilevel"
+  ],
   "author": {
     "name": "Julian Gruber",
     "email": "mail@juliangruber.com",
     "url": "http://juliangruber.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/17..latest",
+      "firefox/nightly",
+      "chrome/22..latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  }
 }
