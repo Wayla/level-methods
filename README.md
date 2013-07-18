@@ -4,6 +4,8 @@
 Useful meta information about
 [levelup](https://github.com/rvagg/node-levelup) methods.
 
+[![build status](https://secure.travis-ci.org/Wayla/level-methods.png)](http://travis-ci.org/Wayla/level-methods)
+
 ## Usage
 
 ```js
