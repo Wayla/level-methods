@@ -1,3 +1,4 @@
+var reduce = require('reduce');
 var test = RegExp.prototype.test;
 
 var regs = {
@@ -15,8 +16,8 @@ var regs = {
     /^is(Open|Closed)$/
 }
 
-module.exports = Object.keys(regs).reduce(function (acc, check) {
-  acc[check] = test.bind(regs[check]);
+module.exports = reduce(regs, function (acc, reg, check) {
+  acc[check] = test.bind(reg);
   return acc;
 }, {});
 
